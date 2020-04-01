@@ -1,11 +1,5 @@
 window.onload=function(){
 
-        
-    let game = new Phaser.Game(360,640,Phaser.AUTO,'content',
-    {
-        preload:preload, 
-        create:create
-    });
 
     function preload(){
 
