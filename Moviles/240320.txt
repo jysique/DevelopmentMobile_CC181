@@ -1,0 +1,4 @@
+webgl - primo de opengl - utilizar la tarjeta grafica.
+
+gruops - arryas o listas generar animaciones. 
+Particles - Atlas archivos json
