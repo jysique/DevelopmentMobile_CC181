@@ -3,6 +3,14 @@ window.onload=function(){
 
     function preload(){
 
+        game.load.image("backyard","assets/images/backyard.png"); 
+        game.load.image("arrow","assets/images/arrow.png");
+        game.load.image("apple","assets/images/apple.png");
+        game.load.image("candy","assets/images/candy.png");
+        game.load.image("toy","assets/images/rubber_duck.png");
+        game.load.image("rotate","assets/images/rotate.png");
+
+        game.load.spritesheet("pet", "assets/images/pet.png", 97, 83, 5); 
     }
     function create(){
         let horizontal = game.world.width / 4;
