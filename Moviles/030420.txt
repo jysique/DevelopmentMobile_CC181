@@ -1,0 +1,5 @@
+GIT
+git branch
+git checkout -b NameBranch
+git checkout master
+git push origin NameBranch

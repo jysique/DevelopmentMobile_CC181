@@ -14,6 +14,7 @@ Preload.prototype = {
         this.load.spritesheet("pet", "assets/images/pet.png", 97, 83, 5); 
 	},
 	create:function(){
-		console.log("Terminamos de cargar")
+		//console.log("Terminamos de cargar");
+		this.state.start("Menu");
 	}
 }
