@@ -10,11 +10,7 @@ Game.prototype = {
         let background = this.add.sprite(0,0,"backyard");
         background.inputEnabled = true;
         background.events.onInputDown.add(this.clickBackGround,this);
-
-
-
-		
-
+	
         this.elements =[]; // para utilizar en toda la clase y en otras funciones
         //toy = rubber_duck
         
